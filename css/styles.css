@@ -415,20 +415,20 @@ margin-bottom: 72px;
         transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-list{
+.portfolio-list:hover{
     transform: translateY(0%);
 }
 
 .portfolio-item {
     max-width: 360px;
     max-height: 420px;
-            transition-property: box-shadow;
-                transition-duration: 300ms;
+    transition-property: box-shadow;
+    transition-duration: 300ms;
 }
 
-.portfolio-item:hover .portfolio-text-cover {
+/*.portfolio-item:hover .portfolio-text-cover {
 transform: translateY(0%);
-}
+}*/
 
 .portfolio-cover-wraper{
     position:relative;
@@ -460,6 +460,10 @@ transform: translateY(0%);
     overflow: hidden;
 }
 
+.portfolio-cover-wraper:hover .portfolio-text-cover {
+    transform: translateY(0);
+}
+
 .portfolio-item:hover{
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
@@ -484,7 +488,7 @@ transform: translateY(0%);
     height: 100%;
     padding: 40px 32px;
     transform: translateY(100%);
-    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transform: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-text-cover2{
@@ -499,7 +503,7 @@ transform: translateY(0%);
         height: 100%;
         padding: 40px 32px;
         transform: translateY(100%);
-        transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transform: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-text-cover3{
@@ -514,7 +518,7 @@ transform: translateY(0%);
         height: 100%;
         padding: 40px 32px;
         transform: translateY(100%);
-        transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transform: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-text-cover4{
@@ -529,7 +533,7 @@ transform: translateY(0%);
         height: 100%;
         padding: 40px 32px;
         transform: translateY(100%);
-        transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transform: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-text-cover5{
@@ -544,7 +548,7 @@ transform: translateY(0%);
         height: 100%;
         padding: 40px 32px;
         transform: translateY(100%);
-        transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transform: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-text-cover6{
@@ -559,7 +563,7 @@ transform: translateY(0%);
         height: 100%;
         padding: 40px 32px;
         transform: translateY(100%);
-        transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transform: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-image-title {
