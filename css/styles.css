@@ -433,7 +433,7 @@ margin-bottom: 72px;
 }
 
 .portfolio-item:hover .portfolio-text-cover {
-transform: translateY(0%);
+    transform: translateY(0%);
 }
 
 .portfolio-cover-wraper{
@@ -465,8 +465,7 @@ transform: translateY(0%);
     height: 100%;
     padding: 40px 32px;
     transform: translateY(100%);
-    transform: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: transform 300ms ease;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-image-title {
